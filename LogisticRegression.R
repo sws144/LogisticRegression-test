@@ -36,5 +36,4 @@ g <- roc(Renewed ~ probs, data = training.data.transformed)
 plot(g)  
 auc(g)
 
-print("testing123")
-print("testingChangesInR")
+print("testchangesR2")
