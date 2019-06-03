@@ -8,7 +8,7 @@ if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
 library(caret)
 
 #input folder - UPDATE
-setwd('C:/Stuff/Important/CareerNCollege/Ad Hoc/Price-Elasticity-of-Demand/') 
+# setwd('C:\Stuff\Important\CareerNCollege\Ad Hoc\Git\LogisticRegression-test') 
 
 training.data.raw <- read.csv('TrainingData.csv',header=T,na.strings=c(""))
 plot(training.data.raw)
